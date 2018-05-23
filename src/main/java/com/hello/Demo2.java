@@ -1,4 +1,7 @@
 package com.hello;
+
+import org.apache.commons.lang.StringUtils;
+
 /** 
  * @author  韩建春 hanjianchun: 
  * @date 创建时间：2018年5月3日 上午10:13:17 
@@ -8,5 +11,6 @@ package com.hello;
 public class Demo2 {
 	public static void main(String[] args) {
 		System.out.println("aaaaaaaaa");
+		StringUtils.defaultIfEmpty("", "");
 	}
 }
